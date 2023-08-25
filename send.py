@@ -21,7 +21,7 @@ wait = WebDriverWait(driver, 10)
 input_element_username = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="loginForm"]/div/div[1]/div/label/input')))
 
 # Now you can interact with the input element
-input_element_username.send_keys("maro_o1502")
+input_element_username.send_keys("")#enter your own username here
 wait = WebDriverWait(driver, 10)
 input_element_password = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="loginForm"]/div/div[2]/div/label/input')))
 
